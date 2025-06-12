@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Surpresa Final</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Tela de senha -->
+  <div class="container" id="senha-container">
+    <h1>Último Passo 💌</h1>
+    <p>Digite a senha para desbloquear a surpresa:</p>
+    <input type="password" id="senha" placeholder="Digite a senha..." />
+    <button onclick="verificarSenha()">Acessar</button>
+    <p id="mensagem-erro" style="color: red; display: none;">Senha incorreta 😢</p>
+  </div>
+
+  <!-- Conteúdo revelado com a senha -->
+  <div class="container" id="surpresa-container" style="display: none;">
+    <h1>Para você, Larissa(Da play na música depois lê) ❤️</h1>
+    <p class="centralizado">
+      Essa foi uma pequena surpresa que preparei pra você hoje, meu amor. Porque hoje é dia de celebrar tudo o que construímos juntos — essa relação tão linda que transformou a minha vida.
+      <br><br>
+      Estar com você me ensinou um novo tipo de amor. Um amor que me transforma, que me inspira a ser um cara melhor a cada dia: mais carinhoso, mais paciente, mais dedicado. Tudo isso graças ao que temos construído, passo a passo, nesses quase 5 anos.
+      <br><br>
+      Você sabe que faltam palavras pra descrever o quanto o nosso namoro me faz bem. Me faz feliz. Me traz paz. Sempre que falo de nós dois, não consigo deixar de repetir o quanto a minha vida é mais leve, mais bonita e mais completa por ter você ao meu lado, dividindo absolutamente tudo comigo.
+      <br><br>
+      Nosso relacionamento é, sem dúvidas, a melhor parte da minha vida. E tudo isso é por sua causa, Larissa.
+      <br><br>
+      <strong>Feliz Dia dos Namorados.</strong><br>
+      <strong>Eu te amo. </strong>
+    </p>
+
+    <audio controls>
+      <source src="out_of_my_league.mp3" type="audio/mpeg">
+      Seu navegador não suporta áudio.
+    </audio>
+
+    <img src="foto_final.jpeg" alt="Foto final" class="foto-canto">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

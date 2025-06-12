@@ -1,0 +1,95 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffe6e6;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.container {
+  margin-top: 10vh;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #cc0000;
+}
+#motivo {
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+.centralizado {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.foto-casal {
+  display: block;
+  margin: 30px auto;
+  max-width: 45%;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.galeria {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.galeria h2 {
+  margin-bottom: 20px;
+}
+
+.galeria-fotos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.foto-galeria {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.foto-galeria:hover {
+  transform: scale(1.05);
+}
+
+
+.foto-galeria:hover {
+  transform: scale(1.05);
+}
+
+.centralizado {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.foto-canto {
+  position: fixed;
+  bottom: 50px;  
+  right: 150x;   
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
